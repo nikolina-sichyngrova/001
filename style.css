@@ -1,0 +1,39 @@
+body {
+    background-color: plum;
+}
+
+h1 {
+    color: rgb(104, 104, 104);
+}
+
+h2 {
+    color: rgb(222, 172, 96);
+}
+
+.container {
+    width: 80vh;
+    height: 80vh;
+    display: grid;
+    background-color: beige;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    margin: auto;
+}
+#A {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    background-color: rgb(68, 99, 89);
+}
+#B {
+    grid-area: 7 / 2 / 8 / 8;
+    background-color: mediumspringgreen;
+}
+#C {
+    grid-column: 7 / 8;
+    grid-row: 2 / 4;
+    background-color: rgb(255, 0, 0);
+}
+.container:hover {
+    background-color:rgb(54, 54, 130)
+
+}
